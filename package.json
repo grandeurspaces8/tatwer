@@ -1,5 +1,5 @@
 {
-  "name": "mountain-view-landing",
+  "name": "tatweer-misr-landing",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -11,11 +11,21 @@
     "next": "15.2.4",
     "react": "^18",
     "react-dom": "^18",
-    "nodemailer": "^6.9.13"
+    "nodemailer": "^6.9.13",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.4",
+    "lucide-react": "^0.468.0",
+    "tw-animate-css": "^1.2.5"
   },
   "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/nodemailer": "^6.4.17",
+    "typescript": "^5",
     "autoprefixer": "^10.0.1",
     "postcss": "^8",
-    "tailwindcss": "^3.3.0"
+    "tailwindcss": "^4.0.0"
   }
 }

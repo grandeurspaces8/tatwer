@@ -1,23 +1,18 @@
-# Mountain View Egypt – Landing Page
+# Tatweer Misr – Landing Page
 
-A Next.js 14 landing page for Mountain View Egypt real estate, optimised for Google Ads.
+Next.js 15 landing page for Tatweer Misr real estate.
 
-## Quick Start
+## Deploy
 
+1. Push to GitHub
+2. Import on vercel.com
+3. Add Environment Variables:
+   - `SMTP_USER` → your Gmail
+   - `SMTP_PASS` → Gmail App Password (https://myaccount.google.com/apppasswords)
+4. Deploy ✅
+
+## Local Dev
 ```bash
 npm install
 npm run dev
 ```
-
-## Deploy to Vercel
-
-1. Push this folder to a GitHub repo
-2. Go to vercel.com → New Project → Import the repo
-3. Add Environment Variables:
-   - `SMTP_USER` → your Gmail address
-   - `SMTP_PASS` → your Gmail App Password (https://myaccount.google.com/apppasswords)
-4. Click Deploy ✅
-
-## Phone & Email
-- Sales phone: +201008900076
-- Leads email: leads@grandeur-spaces.com
