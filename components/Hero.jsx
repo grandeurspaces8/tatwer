@@ -10,15 +10,12 @@ const STATS = [
 export default function Hero() {
   return (
     <section className="min-h-screen bg-gradient-to-br from-[#003580] via-[#00214F] to-[#001A3E] relative flex items-center overflow-hidden pt-[70px]">
-      {/* Background image overlay */}
       <div
         className="absolute inset-0 bg-center bg-cover opacity-[0.18]"
         style={{ backgroundImage: "url('https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1600&q=80')" }}
       />
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-20 grid grid-cols-1 lg:grid-cols-[1fr_420px] gap-16 items-center w-full">
-
-        {/* Left content */}
         <div>
           <div className="inline-flex items-center gap-2 bg-white/10 border border-white/25 rounded-full px-4 py-1.5 text-[#A8C8F0] text-sm font-medium mb-6">
             <span className="w-2 h-2 bg-green-400 rounded-full pulse-dot" />
@@ -55,7 +52,6 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Lead Form Card */}
         <div id="lead-form" className="bg-white rounded-2xl p-8 shadow-2xl">
           <div className="text-center mb-7">
             <h2 className="text-xl font-extrabold text-[#003580] mb-1">Get a Free Consultation</h2>
